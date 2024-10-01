@@ -1,11 +1,16 @@
-import './App.css'
-import ReduxReact from './redux-with-reactjs/components/ReduxReact'
+import './App.css';
+import AddPostForm from './react-redux-toolkit/features/post/AddPostForm';
+import PostsList from './react-redux-toolkit/features/post/PostsList';
+import ReduxReact from './redux-with-reactjs/components/ReduxReact';
 
 function App() {
-
   return (
-    <ReduxReact />
-  )
+    // <ReduxReact />
+    <>
+      <AddPostForm />
+      <PostsList />
+    </>
+  );
 }
 
-export default App
+export default App;
